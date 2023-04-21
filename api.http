@@ -1,0 +1,14 @@
+
+###
+# Posta uma mensagem no chat
+POST http://localhost:3000/api/chats
+Content-Type: application/json
+
+{
+  "mensagem": "Terceiro Teste de mensagem enviado por Luiz Carlos Metzger"
+}
+
+###
+# Retorna todas as mensagens do chat ordenadas por data de criação (descendente)
+GET http://localhost:3000/api/chats
+
